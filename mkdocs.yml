@@ -7,7 +7,7 @@ theme:
 
   palette:
     
-scheme: default
+- scheme: default
     primary: "#1A2B45"   # Azul escuro 
     accent: "#00A86B"    # Verde 
     auxiliary: "#36A9E1" # Azul claro 
@@ -16,7 +16,7 @@ scheme: default
       name: Modo escuro
 
     
-scheme: slate
+- scheme: slate
     primary: "#1A2B45"   # Azul escuro
     accent: "#00A86B"    # Verde
     auxiliary: "#36A9E1" # Azul claro
@@ -26,33 +26,33 @@ scheme: slate
 
 nav:
   
-Início: index.md
-testes: docs/testes.md
+- Início: index.md
+- testes: docs/testes.md
 
 markdown_extensions:
   
-pymdownx.details
-tables
-attr_list
-md_in_html
-pymdownx.blocks.caption
-pymdownx.details
-pymdownx.superfences
+- pymdownx.details
+- tables
+- attr_list
+- md_in_html
+- pymdownx.blocks.caption
+- pymdownx.details
+- pymdownx.superfences
 
   
-pymdownx.arithmatex:
+- pymdownx.arithmatex:
     generic: true
 
 plugins:
   
-search
-mermaid2
-mkdocs-pdf
+- search
+- mermaid2
+- mkdocs-pdf
 
 extra_css:
   
-assets/css/custom.css
+- assets/css/custom.css
 
 extra_javascript:
   
-https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+- https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
