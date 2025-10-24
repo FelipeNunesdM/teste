@@ -27,6 +27,7 @@ scheme: slate
 nav:
   
 Início: index.md
+teste: teste.md
 
 markdown_extensions:
   
